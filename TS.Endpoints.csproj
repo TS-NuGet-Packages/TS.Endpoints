@@ -11,6 +11,10 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>minimal-api endpoint routing carter modular aspnetcore clean-architecture webapi middleware fluent ts.endpoints</PackageTags>
+		<RepositoryUrl>https://github.com/TS-NuGet-Packages/TS.Endpoints</RepositoryUrl>
+		<PackageIcon>icon.jpeg</PackageIcon>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -18,6 +22,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Update="icon.jpeg">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	  <None Update="README.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
