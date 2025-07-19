@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>TS.Endpoints - Clean Routing for Minimal APIs</Title>
+		<Version>9.0.0</Version>
+		<Company>Taner Saydam</Company>
+		<Description>TS.Endpoints is a lightweight modular routing library for ASP.NET Minimal APIs. Inspired by Carter, it enables clean, class-based endpoint organization without controllers.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>minimal-api endpoint routing carter modular aspnetcore clean-architecture webapi middleware fluent ts.endpoints</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
