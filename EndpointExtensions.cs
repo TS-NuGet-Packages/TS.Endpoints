@@ -7,7 +7,7 @@ public static class EndpointExtensions
 {
     public static void AddEndpoint(this IServiceCollection services)
     {
-        var assembly = Assembly.GetExecutingAssembly();
+        var assembly = Assembly.GetCallingAssembly();
         var modules = assembly.GetTypes()
             .Where(p => !p.IsInterface && !p.IsAbstract && typeof(IEndpoint).IsAssignableFrom(p));
 
